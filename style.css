@@ -1,0 +1,76 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Card layout */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Input styling */
+input {
+    padding: 10px;
+    width: 70%;
+    margin: 10px 0;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Task list */
+li {
+    list-style: none;
+    padding: 8px;
+    margin: 5px 0;
+    background: #e8f0fe;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Completed task style */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Timer display */
+#timer {
+    font-size: 40px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Progress number */
+#progressCount {
+    font-size: 30px;
+    color: green;
+}

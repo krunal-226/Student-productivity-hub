@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Productivity Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>📚 Student Productivity Hub</h1>
+
+        <!-- Task Input Section -->
+        <div class="card">
+            <h2>Study Tasks</h2>
+            <input type="text" id="taskInput" placeholder="Enter study task (e.g., Practice arrays in C)">
+            <button onclick="addTask()">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
+
+        <!-- Pomodoro Timer Section -->
+        <div class="card">
+            <h2>Pomodoro Timer</h2>
+            <div id="timer">25:00</div>
+            <button onclick="startTimer()">Start</button>
+            <button onclick="resetTimer()">Reset</button>
+            <p>Focus Sessions Today: <span id="sessionCount">0</span></p>
+<p>Total Focus Time Today: <span id="focusTime">0</span> minutes</p>
+        </div>
+
+        <!-- Daily Progress Section -->
+        <div class="card">
+            <h2>Daily Progress</h2>
+            <p>Tasks Completed Today:</p>
+            <div id="tasksCompleted">0</div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
